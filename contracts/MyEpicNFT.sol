@@ -31,7 +31,7 @@ contract MyEpicNFT is ERC721URIStorage {
 
         // see when the nft is minted and to who
         console.log(
-            "An NFT is minted with ID %s, has been minted to %s",
+            "An NFT with ID %s, has been minted to %s",
             newItemId,
             msg.sender
         );
